@@ -1,0 +1,118 @@
+import type { Product } from "./types"
+
+export const cookies: Product[] = [
+  {
+    id: "chocolate-chip",
+    name: "Classic Chocolate Chip",
+    description: "Our signature cookie with rich chocolate chips in a buttery dough.",
+    price: 2.99,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients: "Flour, butter, sugar, eggs, chocolate chips, vanilla extract, baking soda, salt",
+    category: "bestsellers",
+  },
+  {
+    id: "double-chocolate",
+    name: "Double Chocolate Fudge",
+    description: "Decadent chocolate cookie with chocolate chips for the ultimate chocolate lover.",
+    price: 3.49,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients: "Flour, butter, sugar, eggs, cocoa powder, chocolate chips, vanilla extract, baking soda, salt",
+    category: "bestsellers",
+  },
+  {
+    id: "oatmeal-raisin",
+    name: "Oatmeal Raisin",
+    description: "Hearty oatmeal cookie with plump raisins and a hint of cinnamon.",
+    price: 2.79,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients: "Flour, butter, sugar, eggs, oats, raisins, cinnamon, vanilla extract, baking soda, salt",
+    category: "classics",
+  },
+  {
+    id: "peanut-butter",
+    name: "Peanut Butter",
+    description: "Rich and nutty peanut butter cookie with the perfect chewy texture.",
+    price: 3.29,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients: "Flour, butter, sugar, eggs, peanut butter, vanilla extract, baking soda, salt",
+    category: "classics",
+  },
+  {
+    id: "white-chocolate-macadamia",
+    name: "White Chocolate Macadamia",
+    description: "Creamy white chocolate chips with crunchy macadamia nuts.",
+    price: 3.99,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients:
+      "Flour, butter, sugar, eggs, white chocolate chips, macadamia nuts, vanilla extract, baking soda, salt",
+    category: "premium",
+  },
+  {
+    id: "snickerdoodle",
+    name: "Snickerdoodle",
+    description: "Soft and chewy cinnamon sugar cookie with a crackly top.",
+    price: 2.89,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients: "Flour, butter, sugar, eggs, cream of tartar, cinnamon, vanilla extract, baking soda, salt",
+    category: "classics",
+  },
+  {
+    id: "lemon-shortbread",
+    name: "Lemon Shortbread",
+    description: "Buttery shortbread cookie with a refreshing lemon zest.",
+    price: 3.19,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients: "Flour, butter, sugar, lemon zest, lemon juice, vanilla extract, salt",
+    category: "new",
+  },
+  {
+    id: "red-velvet",
+    name: "Red Velvet Crinkle",
+    description: "Vibrant red cookies with a soft center and white chocolate chips.",
+    price: 3.59,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients:
+      "Flour, butter, sugar, eggs, cocoa powder, red food coloring, white chocolate chips, vanilla extract, baking soda, salt",
+    category: "new",
+  },
+  {
+    id: "salted-caramel",
+    name: "Salted Caramel Chocolate",
+    description: "Chocolate cookie with gooey caramel center and a sprinkle of sea salt.",
+    price: 3.99,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients:
+      "Flour, butter, sugar, eggs, cocoa powder, chocolate chips, caramel, sea salt, vanilla extract, baking soda",
+    category: "premium",
+  },
+  {
+    id: "matcha-white-chocolate",
+    name: "Matcha White Chocolate",
+    description: "Earthy matcha green tea cookie with sweet white chocolate chunks.",
+    price: 3.79,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients:
+      "Flour, butter, sugar, eggs, matcha powder, white chocolate chunks, vanilla extract, baking soda, salt",
+    category: "new",
+  },
+  {
+    id: "birthday-cake",
+    name: "Birthday Cake",
+    description: "Funfetti cookie that tastes like birthday cake with colorful sprinkles.",
+    price: 3.49,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients:
+      "Flour, butter, sugar, eggs, white chocolate chips, sprinkles, vanilla extract, almond extract, baking soda, salt",
+    category: "bestsellers",
+  },
+  {
+    id: "ginger-molasses",
+    name: "Ginger Molasses",
+    description: "Spiced cookie with the rich flavors of ginger, cinnamon, and molasses.",
+    price: 3.29,
+    image: "/placeholder.svg?height=400&width=400",
+    ingredients: "Flour, butter, sugar, eggs, molasses, ginger, cinnamon, cloves, vanilla extract, baking soda, salt",
+    category: "seasonal",
+  },
+]
+
